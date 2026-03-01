@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F17203422F54BE6100A9A25C /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = F17203412F54BE6100A9A25C /* FirebaseAnalytics */; };
+		F17203442F54BE6100A9A25C /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = F17203432F54BE6100A9A25C /* FirebaseAuth */; };
+		F17203462F54BE6100A9A25C /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = F17203452F54BE6100A9A25C /* FirebaseFirestore */; };
+		F172034A2F54C2F700A9A25C /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = F17203492F54C2F700A9A25C /* FirebaseCore */; };
+		F172034C2F54C62F00A9A25C /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = F172034B2F54C62F00A9A25C /* FirebaseStorage */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F172031E2F54AED400A9A25C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F17203052F54AED000A9A25C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F172030C2F54AED000A9A25C;
+			remoteInfo = "Yard2Yum Hackathon";
+		};
+		F17203282F54AED400A9A25C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F17203052F54AED000A9A25C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F172030C2F54AED000A9A25C;
+			remoteInfo = "Yard2Yum Hackathon";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F172030D2F54AED000A9A25C /* Yard2Yum Hackathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yard2Yum Hackathon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F172031D2F54AED400A9A25C /* Yard2Yum HackathonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yard2Yum HackathonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F17203272F54AED400A9A25C /* Yard2Yum HackathonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yard2Yum HackathonUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F172030F2F54AED000A9A25C /* Yard2Yum Hackathon */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Yard2Yum Hackathon";
+			sourceTree = "<group>";
+		};
+		F17203202F54AED400A9A25C /* Yard2Yum HackathonTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Yard2Yum HackathonTests";
+			sourceTree = "<group>";
+		};
+		F172032A2F54AED400A9A25C /* Yard2Yum HackathonUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Yard2Yum HackathonUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F172030A2F54AED000A9A25C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F17203422F54BE6100A9A25C /* FirebaseAnalytics in Frameworks */,
+				F17203442F54BE6100A9A25C /* FirebaseAuth in Frameworks */,
+				F172034A2F54C2F700A9A25C /* FirebaseCore in Frameworks */,
+				F172034C2F54C62F00A9A25C /* FirebaseStorage in Frameworks */,
+				F17203462F54BE6100A9A25C /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F172031A2F54AED400A9A25C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F17203242F54AED400A9A25C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F17203042F54AED000A9A25C = {
+			isa = PBXGroup;
+			children = (
+				F172030F2F54AED000A9A25C /* Yard2Yum Hackathon */,
+				F17203202F54AED400A9A25C /* Yard2Yum HackathonTests */,
+				F172032A2F54AED400A9A25C /* Yard2Yum HackathonUITests */,
+				F172030E2F54AED000A9A25C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F172030E2F54AED000A9A25C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F172030D2F54AED000A9A25C /* Yard2Yum Hackathon.app */,
+				F172031D2F54AED400A9A25C /* Yard2Yum HackathonTests.xctest */,
+				F17203272F54AED400A9A25C /* Yard2Yum HackathonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F172030C2F54AED000A9A25C /* Yard2Yum Hackathon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F17203312F54AED400A9A25C /* Build configuration list for PBXNativeTarget "Yard2Yum Hackathon" */;
+			buildPhases = (
+				F17203092F54AED000A9A25C /* Sources */,
+				F172030A2F54AED000A9A25C /* Frameworks */,
+				F172030B2F54AED000A9A25C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F172030F2F54AED000A9A25C /* Yard2Yum Hackathon */,
+			);
+			name = "Yard2Yum Hackathon";
+			packageProductDependencies = (
+				F17203412F54BE6100A9A25C /* FirebaseAnalytics */,
+				F17203432F54BE6100A9A25C /* FirebaseAuth */,
+				F17203452F54BE6100A9A25C /* FirebaseFirestore */,
+				F17203492F54C2F700A9A25C /* FirebaseCore */,
+				F172034B2F54C62F00A9A25C /* FirebaseStorage */,
+			);
+			productName = "Yard2Yum Hackathon";
+			productReference = F172030D2F54AED000A9A25C /* Yard2Yum Hackathon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F172031C2F54AED400A9A25C /* Yard2Yum HackathonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F17203342F54AED400A9A25C /* Build configuration list for PBXNativeTarget "Yard2Yum HackathonTests" */;
+			buildPhases = (
+				F17203192F54AED400A9A25C /* Sources */,
+				F172031A2F54AED400A9A25C /* Frameworks */,
+				F172031B2F54AED400A9A25C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F172031F2F54AED400A9A25C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F17203202F54AED400A9A25C /* Yard2Yum HackathonTests */,
+			);
+			name = "Yard2Yum HackathonTests";
+			packageProductDependencies = (
+			);
+			productName = "Yard2Yum HackathonTests";
+			productReference = F172031D2F54AED400A9A25C /* Yard2Yum HackathonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F17203262F54AED400A9A25C /* Yard2Yum HackathonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F17203372F54AED400A9A25C /* Build configuration list for PBXNativeTarget "Yard2Yum HackathonUITests" */;
+			buildPhases = (
+				F17203232F54AED400A9A25C /* Sources */,
+				F17203242F54AED400A9A25C /* Frameworks */,
+				F17203252F54AED400A9A25C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F17203292F54AED400A9A25C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F172032A2F54AED400A9A25C /* Yard2Yum HackathonUITests */,
+			);
+			name = "Yard2Yum HackathonUITests";
+			packageProductDependencies = (
+			);
+			productName = "Yard2Yum HackathonUITests";
+			productReference = F17203272F54AED400A9A25C /* Yard2Yum HackathonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F17203052F54AED000A9A25C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					F172030C2F54AED000A9A25C = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					F172031C2F54AED400A9A25C = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = F172030C2F54AED000A9A25C;
+					};
+					F17203262F54AED400A9A25C = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = F172030C2F54AED000A9A25C;
+					};
+				};
+			};
+			buildConfigurationList = F17203082F54AED000A9A25C /* Build configuration list for PBXProject "Yard2Yum Hackathon" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F17203042F54AED000A9A25C;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				F17203402F54BE6100A9A25C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F172030E2F54AED000A9A25C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F172030C2F54AED000A9A25C /* Yard2Yum Hackathon */,
+				F172031C2F54AED400A9A25C /* Yard2Yum HackathonTests */,
+				F17203262F54AED400A9A25C /* Yard2Yum HackathonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F172030B2F54AED000A9A25C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F172031B2F54AED400A9A25C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F17203252F54AED400A9A25C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F17203092F54AED000A9A25C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F17203192F54AED400A9A25C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F17203232F54AED400A9A25C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F172031F2F54AED400A9A25C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F172030C2F54AED000A9A25C /* Yard2Yum Hackathon */;
+			targetProxy = F172031E2F54AED400A9A25C /* PBXContainerItemProxy */;
+		};
+		F17203292F54AED400A9A25C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F172030C2F54AED000A9A25C /* Yard2Yum Hackathon */;
+			targetProxy = F17203282F54AED400A9A25C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F172032F2F54AED400A9A25C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F17203302F54AED400A9A25C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F17203322F54AED400A9A25C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Yard2Yum Hackathon/Preview Content\"";
+				DEVELOPMENT_TEAM = X9Z5K7CFU7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.reyakannan.Yard2Yum-Hackathon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F17203332F54AED400A9A25C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Yard2Yum Hackathon/Preview Content\"";
+				DEVELOPMENT_TEAM = X9Z5K7CFU7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.reyakannan.Yard2Yum-Hackathon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F17203352F54AED400A9A25C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X9Z5K7CFU7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.reyakannan.Yard2Yum-HackathonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yard2Yum Hackathon.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Yard2Yum Hackathon";
+			};
+			name = Debug;
+		};
+		F17203362F54AED400A9A25C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X9Z5K7CFU7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.reyakannan.Yard2Yum-HackathonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yard2Yum Hackathon.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Yard2Yum Hackathon";
+			};
+			name = Release;
+		};
+		F17203382F54AED400A9A25C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X9Z5K7CFU7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.reyakannan.Yard2Yum-HackathonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Yard2Yum Hackathon";
+			};
+			name = Debug;
+		};
+		F17203392F54AED400A9A25C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X9Z5K7CFU7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.reyakannan.Yard2Yum-HackathonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Yard2Yum Hackathon";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F17203082F54AED000A9A25C /* Build configuration list for PBXProject "Yard2Yum Hackathon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F172032F2F54AED400A9A25C /* Debug */,
+				F17203302F54AED400A9A25C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F17203312F54AED400A9A25C /* Build configuration list for PBXNativeTarget "Yard2Yum Hackathon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F17203322F54AED400A9A25C /* Debug */,
+				F17203332F54AED400A9A25C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F17203342F54AED400A9A25C /* Build configuration list for PBXNativeTarget "Yard2Yum HackathonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F17203352F54AED400A9A25C /* Debug */,
+				F17203362F54AED400A9A25C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F17203372F54AED400A9A25C /* Build configuration list for PBXNativeTarget "Yard2Yum HackathonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F17203382F54AED400A9A25C /* Debug */,
+				F17203392F54AED400A9A25C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F17203402F54BE6100A9A25C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.10.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F17203412F54BE6100A9A25C /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F17203402F54BE6100A9A25C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		F17203432F54BE6100A9A25C /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F17203402F54BE6100A9A25C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		F17203452F54BE6100A9A25C /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F17203402F54BE6100A9A25C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		F17203492F54C2F700A9A25C /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F17203402F54BE6100A9A25C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		F172034B2F54C62F00A9A25C /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F17203402F54BE6100A9A25C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F17203052F54AED000A9A25C /* Project object */;
+}
